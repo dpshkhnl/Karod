@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="match_parent"
+  android:layout_width="match_parent">
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:id="@+id/moneyTree">
+    <TextView
+      android:gravity="center"
+      android:id="@+id/first"
+      android:layout_weight="1"
+      android:text="Rs.5000"
+      android:textColor="#000"
+      android:layout_height="match_parent"
+      android:layout_width="match_parent"
+      android:background="@drawable/normal_level"
+      />
+    <TextView
+      android:gravity="center"
+      android:id="@+id/second"
+      android:text="Rs.50000"
+      android:textColor="#000"
+      android:layout_height="match_parent"
+      android:layout_width="match_parent"
+      android:background="@drawable/safe_level"
+       />
+    <TextView
+      android:gravity="center"
+      android:id="@+id/third"
+      android:layout_weight="1"
+      android:text="Rs.5000"
+      android:textColor="#000"
+      android:layout_height="match_parent"
+      android:layout_width="match_parent"
+      android:background="@drawable/current_level"
+      />
+  </LinearLayout>
+
+</ScrollView>

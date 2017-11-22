@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="match_parent"
+  android:layout_width="match_parent"
+  android:padding="16dp">
+  <LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Help"
+      android:textSize="30sp" />
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="20dp"
+      android:text="There are 15 questions from Rs. 1,000 to Rs. 7 Crore. There are 4 options for every question out of which only one is correct.\n\n\n
+The game ends when you give a wrong answer and you get the amount secured in the last safe level. Safe levels are at Rs. 40,000, Rs. 6,40,000 and Rs. 7 Crore. You will lose all your money if you give a wrong answer before reaching a safe level.\n\n\n
+You can Quit any time by pressing the back button if you are not sure of the answer to avoid giving a wrong answer and losing your money.\n\n\n
+There is a 30 second timer till the first safe level and 60 second till the second. After the second safe level, there is no time limit. You lose if you run out of time."/>
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="20dp"
+      android:text="Lifelines"
+      android:textSize="20sp"/>
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="20dp"
+      android:text="There are four lifelines to help you on the way:"/>
+    <LinearLayout
+      android:layout_height="match_parent"
+      android:layout_width="match_parent"
+      android:orientation="horizontal">
+      <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/audience" />
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_weight="1"
+        android:text="1. Audience Poll\n\n
+This will simulate a poll amongst the audience attending KBC and will show you the results of the poll in the form of a bar graph."/>
+    </LinearLayout>
+    <LinearLayout
+      android:layout_height="match_parent"
+      android:layout_width="match_parent"
+      android:orientation="horizontal">
+      <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fifty50" />
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_weight="1"
+        android:text="2. Fifty Fifty\n\n
+This lifeline will remove 2 wrong choices and you have to pick the right answer from the remaining 2 choices."/>
+    </LinearLayout>
+    <LinearLayout
+      android:layout_height="match_parent"
+      android:layout_width="match_parent"
+      android:orientation="horizontal">
+      <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/doubledip" />
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_weight="1"
+        android:text="3. Double Dip\n\n
+This lifeline allows you to answer two options for a question, winning if either of those is correct."/>
+    </LinearLayout>
+    <LinearLayout
+      android:layout_height="match_parent"
+      android:layout_width="match_parent"
+      android:orientation="horizontal">
+      <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/change" />
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_weight="1"
+        android:text="4. Flip the Question\n\n
+This will skip the current questions and show you a new question without increasing your money.
+This lifeline is only available after you cross the second safe level."/>
+    </LinearLayout>
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Every lifeline can only be used once throughout the game."
+      android:paddingTop="20dp" />
+  </LinearLayout>
+</ScrollView>
